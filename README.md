@@ -1,22 +1,74 @@
-# National Bootcamp - Week Nine Project Brief
+# SOC Survival Guide Front End
 
-For your project, you’ll be using what you’ve learned on the course so far to try and improve the lives of your users. In this case, the users will be close to home: bootcampers!
+This is the Front End repository for a Full Stack Application to help School of Code Bootcampers 
+throughout their learning journey by providing learning resources, inspirational
+quotes, a Mindset page to motivate students, and a Self Care page with a timer you can set to remind you to take breaks,
+and when trying to keep active through suggested exercise activities.
 
-To do this, you’ll need to take the time to understand your user (a bootcamper), their experiences, and their problems. Specifically, it might be good to focus on how to enhance the remote experience of a bootcamper, or what can help them with the vast amount of learning there is to do as a new developer. What do they need? What problem might they have that your application could solve for them? How can you get into the mindset of your user and keep them at the centre of your problem-solving?
+To work efficiently, this must hook up to a Back-End Server found in this repository:
+https://github.com/SchoolOfCode/w9_backend-project-nott-in-london.git
 
-The high level outcomes from this project should be:
 
-- A minimum viable product (MVP) showcasing an innovative full stack application which meets the user need you’ve identified
-- A presentation, complete with how you worked as a team and a demonstration of the project
+## API Reference
 
-Your project application might include the following:
+#### Quotes API used
 
-- Include a user experience created in React
-- Build a REST API which is used by your front-end
-- Be supported by a Postgresql database with multiple tables
-- Be built and managed in an agile way
-- Utilise testing for ensuring robust code
+  https://type.fit/api/quotes
 
-Remember, you only have a few days to code a solution, so being agile is key. That means brainstorming what you want to build, and working in sprints to deliver value each time. After each sprint, you can reassess and either continue on course or iterate towards a better solution. Have a plan which is incremental steps, rather than all or nothing.
+#### Fetch all resources API
 
-Click the link to see the [Project Guidelines](https://github.com/SchoolOfCode/project-guidelines/blob/master/project-week.md)
+  http://localhost:3001/api/v1/resources
+
+
+## Demo for Front-End
+
+http://socsurvivalguide.herokuapp.com/
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/SchoolOfCode/w9_frontend-project-nott-in-london
+```
+
+Go to the project directory
+
+```bash
+  cd w9_frontend-project-nott-in-london
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+
+## Running Tests
+
+To run tests, run the following command
+
+```bash
+  npm run test
+```
+
+
+## Architecture
+
+- APP
+    - QUOTE
+    - RESOURCES
+    - SELF CARE
+        - MY TIMER
+    - MINDSET
+    
+
+## Authors
+
+#### Christophe Charbonneau-Freeston[https://github.com/St0neofFr33dom]
+#### Lisa Mac[https://github.com/hamstercat007]
+#### Miguel Lamas[https://github.com/MiguelLamas]
+#### Mohamed Ali[https://github.com/CodeNameMoe]
+#### Mumtaz Obsiye [https://github.com/MumtazO]
+
